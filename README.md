@@ -32,7 +32,7 @@ This project demonstrates various aspects of DCT-based image compression:
 - **Interactive File Selection**: GUI-based image file selection
 - **Batch Processing**: Multiple quality factor processing in single run
 
-## File Structure
+## Project Structure
 
 ```
 dct-image-compression/
