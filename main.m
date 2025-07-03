@@ -2,7 +2,7 @@ clear all
 close all
 
 %% =======================================================================
-%% Exercise 1: DCT Testing with Simple Vectors
+%% Part 1: DCT Testing with Simple Vectors
 %% =======================================================================
 
 % Test DCT with constant vector
@@ -18,7 +18,7 @@ random_vector = [62 5 17 5 83 7 28 25];
 dct_random = my_dct(random_vector);
 
 %% =======================================================================
-%% Exercise 2: 1D DCT Image Compression
+%% Part 2: 1D DCT Image Compression
 %% =======================================================================
 
 %% Image Selection and Loading
@@ -84,7 +84,7 @@ final_image_1d = 255 - uint8(quantization_factor * reconstructed_image);
 figure; imshow(final_image_1d); title('1D DCT Reconstructed Image');
 
 %% =======================================================================
-%% Exercise 3: 2D DCT Image Compression
+%% Part 3: 2D DCT Image Compression
 %% =======================================================================
 
 %% DCT and Quantization Matrix Setup
@@ -188,7 +188,7 @@ loss of high-frequency information. 50Q shows mostly white pixels.
 %}
 
 %% =======================================================================
-%% Exercise 4: Zigzag Scanning Pattern
+%% Part 4: Zigzag Scanning Pattern
 %% =======================================================================
 
 function zigzag_indices = generate_zigzag_pattern(matrix_size)
